@@ -85,10 +85,6 @@ Frontend runs at `http://localhost:5173` and proxies `/api` to the backend.
 
 Ensure MongoDB is running. Default connection: `mongodb://localhost:27017/myfitness`.
 
-### 4. Optional: Same UI images as original
-
-Copy the `myfitness/images` folder (e.g. `logo2.jpg`) into `client/public/images` so the header logo and login/register page images match the original PHP site.
-
 ## API Overview
 
 | Method | Endpoint | Auth | Description |
@@ -112,12 +108,6 @@ Copy the `myfitness/images` folder (e.g. `logo2.jpg`) into `client/public/images
 
 Auth: send `Authorization: Bearer <token>` for protected routes.
 
-## Logic Preserved
-
-- **Prediction:** Rule-based (same thresholds as PHP): Diabetic / Prediabetic / Healthy.
-- **Diet & Exercise:** Same if/else rules by age, height, weight, insulin, glucose, BP, A1C, OGTT; stored per analysis.
-- **Roles:** Patient, Admin, Doctor with separate login and routes.
-- **Admin:** Add doctors; Doctor: view all appointments; Patient: analysis, history, diet, exercise, visualization, book appointment.
 
 ## Default Admin
 
