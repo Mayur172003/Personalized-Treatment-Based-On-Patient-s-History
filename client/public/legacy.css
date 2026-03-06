@@ -1,0 +1,221 @@
+/* Match original PHP/MyFitness UI - Default.css + style.css + inline overrides */
+body {
+  width: 100%;
+  font-size: 120%;
+  background: #f5f5f5;
+}
+.wrap {
+  position: relative;
+  width: 1024px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 10px;
+  border: solid 1px #ddd;
+  box-shadow: 0 0 25px #666;
+  min-height: 100vh;
+}
+.header {
+  height: 156px;
+  padding: 0;
+  font-size: 14px;
+  width: 100%;
+}
+#heading {
+  text-align: center;
+  font-size: 50pt;
+  font-family: verdana, helvetica, arial, sans-serif;
+  color: #993366;
+  padding-top: 35pt;
+  line-height: normal;
+}
+#title {
+  color: #00cc44;
+}
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-inverse .navbar-inner {
+  background-color: #222;
+  background-image: none;
+  border-color: #080808;
+}
+.navbar .brand {
+  padding: 10px 40px 10px;
+  color: #fff;
+}
+.navbar .brand:hover {
+  color: #00cc44;
+}
+.text-right.text-info,
+.text-info {
+  color: #00cc44;
+}
+.f1 {
+  overflow: hidden;
+  padding: 16px 0;
+  border-top: 1px solid #eee;
+}
+.f1 p {
+  margin: 0;
+}
+.btn-success {
+  background-color: #00cc44;
+  color: #fff;
+  border-color: #00cc44;
+}
+.btn-success:hover {
+  background-color: #00a336;
+  color: #fff;
+  border-color: #00a336;
+}
+.btn-info {
+  background-color: #5bc0de;
+  color: #fff;
+  border-color: #46b8da;
+}
+.btn-info:hover {
+  color: #fff;
+}
+.content {
+  padding: 20px 0;
+}
+.input-group {
+  margin: 10px 0;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-size: 17px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  max-width: 360px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+/* Login/Register page specific */
+.login-header {
+  background-color: #5cd65c;
+  height: 70px;
+  width: 400px;
+  margin: 20px auto 0;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  padding: 20px;
+}
+.login-header h2 {
+  margin: 0;
+}
+.name {
+  color: #5cd65c;
+  font-size: 60px;
+}
+#fther1 {
+  width: 100%;
+  height: 200px;
+  position: relative;
+  margin-top: 20px;
+}
+#chld1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  float: right;
+}
+#chld1 img {
+  max-width: 100%;
+  height: auto;
+}
+#smchild2 {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 500px;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-left: 0;
+  text-align: center;
+}
+#lgn, #sgnfrm {
+  margin-left: 567px;
+  margin: 20px auto;
+  max-width: 360px;
+}
+#lgn1, #sgnfrm1 {
+  width: 100%;
+  max-width: 360px;
+}
+#sgn:hover, #lgn2:hover {
+  color: #5cd65c;
+}
+/* Analysis form - label + input on same line style */
+.analysis-form label {
+  display: inline-block;
+  width: 320px;
+  text-align: left;
+  vertical-align: top;
+  margin-bottom: 12px;
+}
+.analysis-form input[type="text"],
+.analysis-form input[type="number"] {
+  padding: 5px 10px;
+  width: 220px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+.analysis-form .form-row {
+  margin-bottom: 12px;
+}
+.analysis-form .hint {
+  font-size: 0.9em;
+  color: #666;
+  margin-left: 320px;
+  margin-top: -8px;
+  margin-bottom: 12px;
+}
+/* Tables like original */
+table.legacy-table {
+  border: 5px solid #333;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+table.legacy-table th,
+table.legacy-table td {
+  border: 1px solid #333;
+  padding: 5px;
+  text-align: left;
+}
+table.legacy-table th {
+  background: #f0f0f0;
+}
+.error {
+  width: 92%;
+  margin: 0 0 15px;
+  padding: 10px;
+  border: 1px solid #a94442;
+  color: #a94442;
+  background: #f2dede;
+  border-radius: 5px;
+  text-align: left;
+}
+.error.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border-color: #3c763d;
+}
+.well {
+  margin: 20px 0;
+  padding: 19px;
+  background: #f5f5f5;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+}
